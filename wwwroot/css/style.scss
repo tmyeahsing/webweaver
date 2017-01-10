@@ -1,0 +1,15 @@
+@import "mixin";
+body{
+  color: green;
+  a{
+    color: red;
+    @include Radius(5px);
+    background-color: black;
+  }
+}
+.main{
+  width: 1004px;
+}
+.empty{
+
+}

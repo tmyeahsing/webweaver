@@ -1,0 +1,7 @@
+@mixin Radius($str){
+  border-radius: $str;
+  -webkit-border-radius: $str;
+}
+a{
+  text-decoration: underline;
+}
